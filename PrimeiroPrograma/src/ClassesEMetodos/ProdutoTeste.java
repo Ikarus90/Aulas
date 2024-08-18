@@ -6,10 +6,10 @@ public class ProdutoTeste {
 
 	public static void main(String[] args) {
 	
-		Produto p1 = new Produto("Notebook");
+		Produto p1 = new Produto("Notebook", 4350.89, 0.25);
 		//p1.nome = "Notebook";
-		p1.preco = 4356.89;
-		p1.desconto = 0.25;
+		//p1.preco = 4356.89;
+		//p1.desconto = 0.25;
 		
 		var p2 = new Produto();
 		p2.nome = "Caneta Azul";

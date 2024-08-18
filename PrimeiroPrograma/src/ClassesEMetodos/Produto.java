@@ -6,12 +6,19 @@ public class Produto {
 	double preco;
 	double desconto;
 	
-	Produto(String nomeInicial){
-		nome = nomeInicial;
+	Produto(){
+		
 		
 		
 	}
-	Produto(){
+	Produto(String nomeInicial,double precoInicial,
+			double descontoInicial){
+		nome = nomeInicial;
+		preco = precoInicial;
+		desconto = descontoInicial;
+		
+		
+	
 		
 	}
 	
